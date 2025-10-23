@@ -4,3 +4,7 @@ network:
     - interface: 127.0.0.1@53
 logging:
   level: info
+local-data:
+  rules:
+    - name: google.com
+      subtree: nxdomain
